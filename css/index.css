@@ -1,0 +1,60 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+
+header{
+    display: flex;
+}
+
+.titulo img{
+    display: flex;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width:81.6%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(103, 181, 183);
+}
+
+nav a:hover{
+    color: royalblue;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto {
+  flex: 1;
+  text-align: center;
+  font-size: 24px;
+
+}
+
+.imagem {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.imagem img {
+  max-width: 100%;
+  height: auto;
+}
