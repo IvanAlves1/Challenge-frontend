@@ -1,0 +1,115 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+ 
+header{
+  display: flex;
+  border-bottom: 1px solid rgb(103, 181, 183);
+ 
+}
+
+body{
+  background-color: #f0f4f7;
+}
+ 
+main {
+padding: 30px 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex: 1;
+}
+ 
+ 
+.titulo img{
+  display: flex;
+}
+ 
+nav{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ 
+}
+ 
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+ 
+nav a{
+  text-decoration: none;
+  color: rgb(103, 181, 183);
+ 
+}
+ 
+nav ul li a {
+padding: 20px 20px;
+}
+ 
+nav a:hover{
+  color: royalblue;
+  background-color: rgb(103, 181, 183);
+}
+ 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+ 
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  .cadastro label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .cadastro input, .Cadastro textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  .cadastro button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .cadastro button:hover {
+    background-color: royalblue;
+  }
+  h1{
+    text-align: center;
+    margin: 30px;
+  }
+ 
+footer{
+    background-color: #f1f1f1;
+    padding: 30px 20px;;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+   
+  }
