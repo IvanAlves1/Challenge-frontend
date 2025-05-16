@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hospital das Clínicas</title>
     <link rel="stylesheet" href="../css/agenconsulta.css">
-    <link rel="stylesheet" href="../js/agenconsulta.js">
+    <script src="../js/agenconsulta.js"></script>
 </head>
 <body>
     <header><div class="titulo"><img src="../imagens/logo.png" alt=""></div>
@@ -14,8 +14,8 @@
                 <li><h3><a href="../index.html">Inicio</a></h3></li>
                 <li><h3><a href="../html/cadastro.html">Cadastro</a></h3></li>
                 <li><h3><a href="../html/agenconsulta.html">Agendar Consulta</a></h3></li>
-                <li><h3><a href="../html/suporte.html">Suporte | Ajuda</a></h3></li>
                 <li><h3><a href="../html/FAQ.html">FAQ</a></h3></li>
+                <li><h3><a href="../html/suporte.html">Suporte | Ajuda</a></h3></li>
                 <li><h3><a href="../html/integrantes.html">Integrantes</a></h3></li>
             </ul>
         </nav>
@@ -23,10 +23,7 @@
     <main>
         <section>
             <h1>Agendar Consulta</h1>
-            <p>Utilize nosso sistema online para marcar consultas com especialistas em diversas áreas. Rápido, seguro e sem complicações.</p><br>
-
             <form class="agendamento" onsubmit="return redirecionar(event);">
-                <h2>Agendar Consultas</h2>
                 <label for="nome">Nome Completo:</label>
                 <input type="text" id="nome" name="nome" required>
  
@@ -54,7 +51,7 @@
                 <label for="Unidade">Unidade / Local de atendimento:</label>
                 <select name="Unidade" id="Unidade" required>
                     <option disabled selected value="">Selecione uma opção</option>
-                    <option value="InstitutoCentral">Instituo Central</option>
+                    <option value="InstitutoCentral">Instituto Central</option>
                     <option value="InstitutodoCoração">Instituo Do Coração</option>
                     <option value="InstitutoOrtopedia">Instituto De Ortopedia e Traumatologia</option>
                     <option value="InstitutodaCriança">Instituto Da Criança e Adolescente</option>
