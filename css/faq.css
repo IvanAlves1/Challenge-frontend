@@ -45,8 +45,10 @@ main ol{
   color: #0a3d62;
   max-width: 800px;
   margin: auto;
-  background-color: #fff;
+  background-color: #f9f9f9;
   padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
 
  body {
@@ -57,9 +59,9 @@ main ol{
 
 main h1 {
     text-align: center;
-    margin-bottom: 10px;
-    margin-top: 30px;
+    margin-bottom: 20px;
     color: #0a3d62;
+    padding: 30px 20px;
   }
 
 main li {
