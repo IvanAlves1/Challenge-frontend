@@ -45,10 +45,25 @@ body{
   background-color: #f0f4f7;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 
 
 main{
-  text-align: center;;
+  text-align: center;
+  padding: 30px 20px;
+  color: #0a3d62;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+
 }
 
 main h1{
@@ -56,31 +71,52 @@ main h1{
 }
 
 .suporte{
-    display: flex;
-    width: 300px;
+    width: 500px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: #f9f9f9;
-    justify-content: center;
     margin: auto;
+
 }
 
-
-
-
-
-
-
-
-main {
-  padding: 30px 20px;
-  color: #0a3d62;
-  flex-direction: column;
-  justify-content: center;
+.assistente{
+  margin-bottom: 20px;
+  font-size: x-large;
+  display: flex;
+  justify-items: center;
   align-items: center;
-  flex: 1;
+  justify-content: center;
 }
+
+.assistente img{
+  margin-top: 0px;
+}
+
+.perguntas button {
+  color: #0a3d62;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #0a3d62;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  text-align: center;
+  width: 300px;
+}
+
+.perguntas a {
+  color: #0a3d62;
+  text-decoration: none;
+}
+
+.perguntas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
 
 
 
@@ -101,4 +137,45 @@ footer{
   font-size: 14px;
   margin-top: 40px;
  
+}
+
+
+
+@media (max-width: 768px) {
+  section {
+    flex-direction: column;
+    text-align: justify;
+  }
+  nav ul li a {
+  padding: 0;
+  margin: 20px;
+}
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 15px;
+    padding: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 17px;
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1300px) {
+  body {
+    font-size: 18px;
+    padding: 40px;
+  }
 }
