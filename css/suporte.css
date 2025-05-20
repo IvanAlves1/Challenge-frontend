@@ -45,13 +45,6 @@ body{
   background-color: #f0f4f7;
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
 
 
 
